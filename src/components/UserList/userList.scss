@@ -1,0 +1,19 @@
+.list {
+  &__flex {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    margin-bottom: .4rem;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.01);
+    }
+    img {
+      border-radius: 50%;
+      width: 3rem;
+      margin: .4rem;
+    }
+  }
+}

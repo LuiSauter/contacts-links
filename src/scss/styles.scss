@@ -1,0 +1,12 @@
+// Config styles
+@import 'config/colors';
+@import 'config/fonts';
+@import 'config/size';
+// Mixins
+// @import '';
+// Estilos base
+@import 'base/base';
+// Bloques components
+@import '../pages/home/home';
+@import '../components/UserList/userList';
+@import '../components/Profile/profile';

@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  height: 100%;
+  margin: 1rem auto;
+  gap: 1rem;
+  &__item-list {
+    // background: $btn-color;
+  }
+
+  &__item-profile {
+    // background: $primary-color;
+  }
+}

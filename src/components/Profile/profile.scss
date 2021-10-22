@@ -1,0 +1,14 @@
+.profile {
+  text-align: center;
+  &__card {
+    p {
+      margin-top: .5rem;
+      font-size: 1rem;
+    }
+    img {
+      border-radius: 50%;
+      width: 8rem;
+    }
+  }
+
+}
